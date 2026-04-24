@@ -1,0 +1,52 @@
+ #booklist{
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: #d3d3d3;
+    -fx-background-insets: 0;
+}
+
+#booklist .list-cell{
+    -fx-border-width: 2;
+    -fx-background-color: transparent;
+    -fx-border-color: #ff8c00;
+    -fx-border-radius: 30;
+}
+
+#booklist .list-cell:hover{
+    -fx-background-color: #c0c0c0;
+    -fx-background-insets: 3;
+    -fx-background-radius: 30;
+}
+
+#searchbar{
+    -fx-border-color: #ff8c00;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ffffff;
+}
+
+#searchbutton{
+    -fx-border-color: #ff8c00;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: #ffffff;
+}
+
+#searchbutton:hover{
+    -fx-background-color: #ff8c00;
+}
+
+#resetsearch{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff8c00;
+}
+
+#resetsearch:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff8c00;
+    -fx-underline: true;
+}

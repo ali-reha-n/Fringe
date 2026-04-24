@@ -1,0 +1,7 @@
+1|The Kite Runner|Khalid Hosseini|Historical Fiction|Betrayal, guilt, and redemption in Afghanistan.|null|1883|9780141321004|4.2
+2|Pride and Prejudice|Jane Austen|Romance|Elizabeth Bennet navigates family pressure, pride, and unexpected love.|null|1813|9780141439518|4.5
+3|The Time Machine|H. G. Wells|Science Fiction|A scientist travels far into the future and discovers a changed world.|null|1895|9780553213515|4.0
+4|1984|George Orwell|Dystopian|A man struggles for individuality under the eye of Big Brother.|null|1949|9780451524935|4.5
+5|Fullmetal Alchemist|Hiromu Arakawa|Fantasy|Two brothers use alchemy to search for a way to restore their bodies.|null|2001|9781591166146|4.9
+6|Crime and Punishment|Fyodor Dostoevsky|Psychological Fiction|A student commits a murder to test his theory of being an extraordinary man.|null|1866|9780451530066|4.7
+7|The Metamorphosis|Franz Kafka|Existentialism|Gregor Samsa wakes up to find himself transformed into a giant insect.|null|1915|9780553213690|4.3

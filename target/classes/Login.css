@@ -1,0 +1,46 @@
+
+
+#loginbutton{
+        -fx-text-fill: #ff8c00;
+        -fx-border-color: #ff8c00;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+        -fx-background-color: #ffffff;
+}
+
+#loginbutton:hover{
+    -fx-background-color: #ff8c00;
+    -fx-text-fill: #ffffff;
+}
+
+
+#password{
+    -fx-border-color: #ff8c00;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ffffff;
+}
+
+#username{
+    -fx-border-color: #ff8c00;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #ffffff;
+}
+
+#logo{
+    -fx-text-fill: #ffa500;
+    -fx-font-size: 50px;
+    -fx-alignment: center;
+    -fx-font-family: "Courier New";
+}
+
+#registerbutton{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-underline: true;
+}
+
+#registerbutton:hover{
+    -fx-text-fill: #ff8c00;
+}
