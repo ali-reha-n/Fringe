@@ -21,7 +21,7 @@ public class LoginController {
     public void moveToMainPage( ActionEvent event) throws IOException {
             String Username = username.getText();
             String Password = password.getText();
-            System.out.println( Password + Username );
+
             /*
                 INPUT
                 PASSWORD VERIFICATION LOGIC
@@ -36,4 +36,11 @@ public class LoginController {
             stage.setScene( scene);
     }
 
+    public void register( ActionEvent e) throws IOException{
+        root = FXMLLoader.load( getClass().getResource( "Register.fxml" ));
+        stage  = (Stage)((Node)e.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        scene.getStylesheets().add(getClass().getResource( "Register.css" ).toExternalForm());
+        stage.setScene( scene);
+    }
 }

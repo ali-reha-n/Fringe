@@ -1,0 +1,128 @@
+
+.root {
+    -fx-background-color: #ffe5cc;
+}
+
+#title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-background-color: #ff8c00;
+    -fx-border-radius: 10px;
+    -fx-border-color: #ff8c00;
+    -fx-background-radius: 10px;
+    -fx-padding: 2 2 2 2;
+    -fx-text-fill: #000000;
+}
+
+#author {
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 1 1 1 1;
+}
+
+#authorname{
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+    -fx-background-color: #fff3e0;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #ff8c00;
+    -fx-padding: 1 1 1 1;
+}
+
+
+#review {
+    -fx-font-size: 13px;
+    -fx-background-color: #fff3e0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 3 3 3 3;
+}
+
+.label {
+    -fx-font-size: 13px;
+}
+
+#description {
+    -fx-background-color: #fff3e0;
+    -fx-background-radius: 12;
+    -fx-padding: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #ff8c00;
+    -fx-border-width: 2.5px;
+}
+
+#genre, #isbn, #published, {
+    -fx-background-color: #fff3e0;
+    -fx-background-radius: 8;
+    -fx-padding: 4 8 4 8;
+    -fx-text-fill: #bf360c;
+    -fx-font-size: 12px;
+}
+
+#warning{
+    -fx-background-color: #ffcccc;
+    -fx-border-color: #ff0000;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #ff0000;
+}
+
+
+.list-view {
+    -fx-background-color: #fff3e0;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-width: 2px;
+    -fx-border-color: #ffccbc;
+    -fx-padding: 5;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4e342e;
+    -fx-padding: 6;
+    -fx-font-style: italic;
+}
+
+
+.image-view {
+    -fx-background-radius: 10;
+}
+
+#chat{
+    -fx-background-color: #fff3e0;
+}
+
+#chat:hover{
+    -fx-background-color: #ff8c00;
+}
+
+#quotebutton{
+        -fx-text-fill: #ff8c00;
+        -fx-border-color: #ff8c00;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+        -fx-background-color: #ffffff;
+}
+
+#quotebutton:hover{
+    -fx-background-color: #ff8c00;
+    -fx-text-fill: #ffffff;
+}
+
+#reviewbutton{
+        -fx-text-fill: #ff8c00;
+        -fx-border-color: #ff8c00;
+        -fx-border-radius: 10px;
+        -fx-background-radius: 10px;
+        -fx-background-color: #ffffff;
+}
+
+#reviewbuttonbutton:hover{
+    -fx-background-color: #ff8c00;
+    -fx-text-fill: #ffffff;
+}

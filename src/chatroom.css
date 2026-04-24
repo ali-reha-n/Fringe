@@ -1,0 +1,52 @@
+.root{
+    -fx-background-color: #000000;
+}
+.list-view {
+    -fx-background-color: #000000;
+    -fx-control-inner-background: #000000;
+    -fx-border-color: transparent;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled {
+    -fx-text-fill: white;
+    -fx-padding: 8 12 8 12;
+}
+
+.list-cell:filled:selected,
+.list-cell:filled {
+    -fx-background-color: #ff8c00;
+    -fx-background-radius: 15;
+}
+
+.text-field {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #888;
+    -fx-background-radius: 10;
+    -fx-border-color: transparent;
+}
+
+
+#sendbutton {
+    -fx-background-color: #ff8c00;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #ffa733;
+}
+
+#backbutton{
+    -fx-background-color: #ff8c00;
+        -fx-text-fill: black;
+        -fx-font-weight: bold;
+        -fx-background-radius: 10;
+}

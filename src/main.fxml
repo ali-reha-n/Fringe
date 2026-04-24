@@ -8,8 +8,9 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
    
    <children>
-      <ListView fx:id="booklist" layoutX="17.0" layoutY="66.0" prefHeight="320.0" prefWidth="566.0" />
+      <ListView fx:id="booklist" layoutX="17.0" layoutY="66.0" onMouseClicked="#openBook" prefHeight="320.0" prefWidth="566.0" />
       <TextField fx:id="searchbar" layoutX="186.0" layoutY="24.0" promptText="Search......" />
       <Button fx:id="searchbutton" layoutX="348.0" layoutY="24.0" mnemonicParsing="false" onAction="#search" text="🔍" />
+      <Button fx:id="resetsearch" layoutX="389.0" layoutY="24.0" mnemonicParsing="false" onAction="#resetSearch" text="Reset Search" />
    </children>
 </AnchorPane>

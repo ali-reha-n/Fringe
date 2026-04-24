@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="346.0" stylesheets="@chatroom.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatRoomController">
+   <children>
+      <Button fx:id="backbutton" mnemonicParsing="false" onAction="#goBack" text="&lt;-" />
+      <ListView fx:id="chat" prefHeight="395.0" prefWidth="346.0" stylesheets="@chatroom.css" />
+      <HBox prefHeight="44.0" prefWidth="346.0">
+         <children>
+            <TextField fx:id="chattext" prefHeight="43.0" prefWidth="227.0" promptText="Enter a message....." />
+            <Button fx:id="sendbutton" mnemonicParsing="false" onAction="#sendMessage" prefHeight="43.0" prefWidth="122.0" text="Send" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ContentWarningStore {
+class ContentWarningStore {
 
     private static final String FILE = "data/content_warnings.txt";
 

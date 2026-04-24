@@ -37,3 +37,16 @@
 #searchbutton:hover{
     -fx-background-color: #ff8c00;
 }
+
+#resetsearch{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff8c00;
+}
+
+#resetsearch:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff8c00;
+    -fx-underline: true;
+}
